@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 100%;
+}
+
+
+.head-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#top-logo {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 35px;
+
+}
+
+#top-logo a {
+    display: inline-block;
+    padding-top: 59px;
+    width: 122px;
+    height: 59px;
+    background: url('../assignment4/logo.png') 0 0 no-repeat;
+    background-size: 122px auto;
+    overflow: hidden;
+}
+
+.head-menu-wrap {
+    vertical-align: middle;
+    padding-left: 162px;
+}
+
+.head-menu {
+    width: 100%;
+    text-align: right;
+}
+
+.left-side-bg {
+    display: inline-block;
+    width: 27px;
+    height: 40px;
+    margin-right: -4px;
+    vertical-align: middle;
+    background: url('../assignment4/navleft.png') 0 0 no-repeat;
+}
+
+.middle-side-bg {
+    display: inline-block;
+    width: 95%;
+    height: 40px;
+    margin-right: -4px;
+    vertical-align: middle;
+    background: url('../assignment4/navmiddle.png') repeat-x;
+    line-height: 40px;
+}
+
+.right-side-bg {
+    display: inline-block;
+    width: 27px;
+    height: 40px;
+    vertical-align: middle;
+    background: url('../assignment4/navright.png') 0 0 no-repeat;
+}
+
+.left-side {
+    display: inline-block;
+    text-align: left;
+    padding-right: 35px;
+}
+
+.left-side li a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.left-side li a:first-child {
+    padding-left: 20px;
+    padding-right: 35px;
+}
+
+.left-side li a:not(:first-child) {
+    padding: 0 35px;
+    border-left: 1px solid black;
+}
+
+.right-side {
+    display: inline-block;
+}
+
+.left-side li {
+    display: inline-block;
+}
+
+.right-side li {
+    display: inline-block;
+}
+
+.head-under-menu {
+    text-align: center;
+}
+
+.head-under-menu li{
+    display: inline-block;
+}
+
+.aside-contents-wrap {
+    display: block;
+}
+
+aside {
+    display: inline-block;
+    width: 156px;
+    position: absolute;
+    top: 154px;
+}
+
+.contents-container {
+    padding-left: 173px;
+}
+
+.top-section {
+    display: block;
+    text-align: right;
+}
+
+.route {
+    display: inline-block;
+}
+
+
+.datechecker {
+    text-align: center;
+}
+
+table {
+    min-width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid lightgray;
+}
+
+th {
+    padding: 8px 34px;
+}
+
+td {
+    height: 86px;
+}
