@@ -81,116 +81,137 @@
                         <a href="#"><span>연구일정</span></a>
                     </div>
                 </div>
-                <div class="contents-box">
-                    <h3><span>연구</span>일정</h3>
-                    <div class="datechecker">
-                        <button>이전달</button>
-                        <select name="years" id="year">
-                            <option value="2010">2010</option>
-                            <option value="2011">2011</option>
-                            <option value="2012">2012</option>
-                            <option value="2013">2013</option>
-                            <option value="2014">2014</option>
-                            <option value="2015">2015</option>
-                            <option value="2016">2016</option>
-                            <option value="2017">2017</option>
-                            <option value="2018">2018</option>
-                            <option value="2019">2019</option>
-                            <option value="2020" selected="selected">2020</option>
-                        </select>
-                        <select name="month" id="month">
-                            <option value="1월" selected="select">1월</option>
-                            <option value="2월">2월</option>
-                            <option value="3월">3월</option>
-                            <option value="4월">4월</option>
-                            <option value="5월">5월</option>
-                            <option value="6월">6월</option>
-                            <option value="7월">7월</option>
-                            <option value="8월">8월</option>
-                            <option value="9월">9월</option>
-                            <option value="10월">10월</option>
-                            <option value="11월">11월</option>
-                            <option value="12월">12월</option>
-                        </select>
-                        <button>다음달</button>
-                    </div>
-                    <div class="table-wrap">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>일요일</th>
-                                    <th>월요일</th>
-                                    <th>화요일</th>
-                                    <th>수요일</th>
-                                    <th>목요일</th>
-                                    <th>금요일</th>
-                                    <th>토요일</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
-                                    <td>5</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>7</td>
-                                    <td>8</td>
-                                    <td>9<br>
-                                        <span>주간보고회</span>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="top-left-border"></div>
+                <div class="top-border left-border right-border">
+                    <div class="contents-box">
+                        <h3><span>연구</span>일정</h3>
+                        <div class="datechecker">
+                            <button>이전달</button>
+                            <select name="years" id="year">
+                                <option value="2010">2010</option>
+                                <option value="2011">2011</option>
+                                <option value="2012">2012</option>
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020" selected="selected">2020</option>
+                            </select>
+                            <select name="month" id="month">
+                                <option value="1월" selected="select">1월</option>
+                                <option value="2월">2월</option>
+                                <option value="3월">3월</option>
+                                <option value="4월">4월</option>
+                                <option value="5월">5월</option>
+                                <option value="6월">6월</option>
+                                <option value="7월">7월</option>
+                                <option value="8월">8월</option>
+                                <option value="9월">9월</option>
+                                <option value="10월">10월</option>
+                                <option value="11월">11월</option>
+                                <option value="12월">12월</option>
+                            </select>
+                            <button>다음달</button>
+                        </div>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="sunday">일요일</th>
+                                        <th scope="col">월요일</th>
+                                        <th scope="col">화요일</th>
+                                        <th scope="col">수요일</th>
+                                        <th scope="col">목요일</th>
+                                        <th scope="col">금요일</th>
+                                        <th scope="col" class="saturday">토요일</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="df-color"></td>
+                                        <td class="df-color"></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>7</td>
+                                        <td>8</td>
+                                        <td>9<br>
+                                            <span>주간보고회</span>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="another-color"></td>
+                                        <td></td>
+                                        <td class="selected-line"></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="df-color"></td>
+                                        <td class="df-color"></td>
+                                        <td class="df-color"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
         <footer>
-    
+            <div class="footer-right">
+                <div class="footer-list">
+                    <ul>
+                        <li><a href="#"><span>개인정보보호방침</span></a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">자동이메일수집거부</a></li>
+                        <li><a href="#">윤리헌장</a></li>
+                        <li><a href="#">홈페이지의견수렴</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="#">직원검색</a></li>
+                    </ul>
+                </div>
+                <p>한국연구재단에서 운영하는 모든 사이트의 콘텐츠는 저작권의 보호를 받는 바, 무단전재, 복사, 배포를 금합니다.</p>
+                <address>
+                    <span>대전청사</span> [305-350] 대전광역시 유성구 가정로 165 Tel. 042-869-6114 / Fax. 042-869-6777<br>
+                    <span>서울청사</span> [137-748] 서울특별시 서초구 헌릉로 25 Tel. 02-3460-5500 / Fax. 02-3460-5759
+                </address>
+                <p>COPYRIGHT(C) 2010 NRF. ALL RIGHTS RESERVED. <a href="#">SERVICE@NRF.GO.KR</a></p>
+            </div>
         </footer>
     </div>
 </body>
