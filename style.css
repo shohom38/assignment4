@@ -34,7 +34,7 @@
     padding-top: 59px;
     width: 122px;
     height: 59px;
-    background: url('../assignment4/logo.png') 0 0 no-repeat;
+    background: url('../assignment4/img/logo.png') 0 0 no-repeat;
     background-size: 122px auto;
     overflow: hidden;
 }
@@ -42,13 +42,15 @@
 .head-menu-wrap {
     position: relative;
     top: -31px;
-    vertical-align: middle;
     padding-left: 162px;
+    text-align: center;
 }
 
 
 .head-menu {
     width: 100%;
+    line-height: 40px;
+    padding-right: 36px;
 }
 
 .right-side::after {
@@ -57,37 +59,24 @@
     clear: both;
 }
 
+
 .left-side-bg {
-    display: inline-block;
-    width: 27px;
-    height: 40px;
-    margin-right: -5px;
-    vertical-align: middle;
-    background: url('../assignment4/navleft.png') 0 0 no-repeat;
+    background: url('../assignment4/img/navleft.png') left center no-repeat;
+    padding-left: 27px;
 }
 
 .middle-side-bg {
-    display: inline-block;
-    width: 93%;
-    height: 40px;
-    margin-right: -5px;
-    vertical-align: middle;
-    background: url('../assignment4/navmiddle.png') repeat-x;
-    line-height: 40px;
+    background: url('../assignment4/img/navmiddle.png') center center repeat-x;
 }
 
 .right-side-bg {
-    display: inline-block;
-    width: 27px;
-    height: 40px;
-    vertical-align: middle;
-    background: url('../assignment4/navright.png') 0 0 no-repeat;
+    background: url('../assignment4/img/navright.png') right center no-repeat;
+    padding-right: 27px;
 }
 
 .left-side {
     display: inline-block;
     font-weight: bold;
-    vertical-align: middle;
     text-align: left;
     padding-right: 35px;
 }
@@ -99,7 +88,6 @@
     padding-right: 35px;
     color: #ffffff;
     text-decoration: none;
-    line-height: 40px;
 }
 
 .left-side li a:first-child {
@@ -135,42 +123,29 @@
 }
 
 .under-bar-left-bg {
-    display: inline-block;
-    width: 13px;
-    height: 28px;
-    vertical-align: middle;
-    margin-right: -5px;
-    background: url('../assignment4/under-bar-left.png') 0 0 no-repeat;
-    background-position-y: -2px;
+    padding-left: 13px;
+    background: url('../assignment4/img/under-bar-left.png') left center no-repeat;
 }
 
 .under-bar-middle-bg {
-    display: inline-block;
-    line-height: 28px;
-    vertical-align: middle;
-    background: url('../assignment4/under-bar-middle.png') repeat-x;
+    background: url('../assignment4/img/under-bar-middle.png') center center repeat-x;
 }
 
 .under-bar-right-bg {
-    display: inline-block;
-    width: 13px;
-    height: 28px;
-    margin-left: -5px;
-    vertical-align: middle;
-    background: url('../assignment4/under-bar-right.png') 0 0 no-repeat;
-    background-position-y: -2px;
+    padding-right: 13px;
+    background: url('../assignment4/img/under-bar-right.png') right center no-repeat;
 }
 
 
 
 .head-under-menu {
-    text-align: center;
+    display: inline-block;
     margin-bottom: 25px;
 }
 
 .under-bar-middle {
-    padding-left: 300px;
-    padding-right: 300px;
+    display: inline-block;
+    padding: 3px 400px;
 }
 
 .head-under-menu li{
@@ -202,33 +177,29 @@ aside {
 
 h2 {
     font-size: 18px;
-    padding-top: 7px;
+    padding-top: 6px;
+    padding-bottom: 5px;
     margin: 0 auto;
     margin-bottom: -4px;
     color: #ffffff;
-    background: url('../assignment4/aside-top-bg.png') 0 0 no-repeat;
+    background: url('../assignment4/img/aside-top-bg.png') 0 0 no-repeat;
     background-size: auto;
 }
 
 .aside-inner-top-bg {
-    width: 157px;
-    height: 20px;
-    text-align: left;
-    background: url('../assignment4/aside-inner-top-bg.png') 0 0 no-repeat;
-    background-position-y: 5px;
+    padding-top: 9px;
+    background: url('../assignment4/img/aside-inner-top-bg.png') center top no-repeat;
 
 }
 
 .aside-inner-middle-bg {
-    background: url('../assignment4/aside-inner-middle-bg.png') repeat-y;
+    background: url('../assignment4/img/aside-inner-middle-bg.png') center center repeat-y;
 
 }
 
 .aside-inner-bottom-bg {
-    width: 156px;
-    height: 28px;
-    background: url('../assignment4/aside-inner-bottom-bg.png') 0 0 no-repeat;
-    background-position-y: -17px;
+    padding-bottom: 9px;
+    background: url('../assignment4/img/aside-inner-bottom-bg.png') center bottom no-repeat;
 }
 
 
@@ -282,6 +253,7 @@ h2 {
 
 .contents-container {
     padding-left: 173px;
+    margin-bottom: 30px;
 }
 
 .top-section {
@@ -291,23 +263,49 @@ h2 {
 }
 
 .top-left-border {
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    background: url('../assignment4/top-left-border.png') 0 0 no-repeat;
+    background: url('../assignment4/img/top-left-border.png') left top no-repeat;
+
+}
+
+.top-right-border {
+
+    background: url('../assignment4/img/top-right-border.png') right top no-repeat;
 }
 
 .top-border {
-    display: inline-block;
-    background: url('../assignment4/top-border.png') repeat-x;
+    background: url('../assignment4/img/top-border.png') center top repeat-x;
 }
 
 .left-border {
-    background: url('../assignment4/left-border.png') repeat-y;
+    background: url('../assignment4/img/left-border.png') left repeat-y;
 }
 
 .right-border {
-    background: url('../assignment4/right-border.png') repeat-y;
+    background: url('../assignment4/img/right-border.png') right repeat-y;
+}
+
+.bottom-left-border {
+
+    background: url('../assignment4/img/bottom-left-border.png') left bottom no-repeat;
+}
+
+.bottom-right-border {
+
+    background: url('../assignment4/img/bottom-right-border.png') right bottom no-repeat;
+}
+
+.bottom-border {
+    background: url('../assignment4/img/bottom-border.png') center bottom repeat-x;
+}
+
+.position-box {
+    width: 500px;
+    margin: 100px auto;
+}
+
+.contents {
+    width: 500px;
+    height: 500px;
 }
 
 .contents-box {
@@ -324,7 +322,7 @@ h2 {
     color: #7e7e7e;
 }
 
-.route a span {
+.route span {
     font-weight: bold;
     color: #5a5a5a;
 }
@@ -335,7 +333,7 @@ h3 {
     color: #4f4f4f;
     padding-left: 39px;
     margin-bottom: 21px;
-    background: url('../assignment4/bullet2.png') 0 0 no-repeat;
+    background: url('../assignment4/img/bullet2.png') 0 0 no-repeat;
 }
 
 h3 span {
@@ -356,6 +354,24 @@ table {
     border-collapse: collapse;
     color: #6a6a6a;
 }
+
+button {
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    padding: 2px 3px;
+}
+
+
+.left-btn {
+    padding-left: 8px;
+    background: url('../assignment4/img/button-left.png') 0 center no-repeat;
+}
+
+.right-btn {
+    padding-right: 8px;
+    background: url('../assignment4/img/button-right.png') right center no-repeat;
+}
+
 
 table, th, td {
     border: 1px solid lightgray;
@@ -402,7 +418,7 @@ footer {
     font-size: 12px;
     font-weight: bold;
     color: #999999;
-    background: url('../assignment4/footer-img.png') 0 0 no-repeat;
+    background: url('../assignment4/img/footer-img.png') 0 0 no-repeat;
     background-position: 120px 10px;
 }
 
