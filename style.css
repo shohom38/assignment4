@@ -8,6 +8,7 @@
 }
 
 body {
+    min-width: 1520px;
     background: url('../assignment4/img/background.png') center top repeat-x;
     background-size: 
 }
@@ -268,7 +269,8 @@ h2 {
 }
 
 .top-left-border {
-    background: url('../assignment4/img/top-left-border.png') left top no-repeat;
+    background: url('../assignment4/img/left-top-bg.png') left top no-repeat;
+    padding-top: 16px;
 
 }
 
@@ -278,20 +280,21 @@ h2 {
 }
 
 .top-border {
-    background: url('../assignment4/img/top-border.png') center top repeat-x;
+    background: url('../assignment4/img/top-border.png') center 2px repeat-x;
 }
 
 .left-border {
-    background: url('../assignment4/img/left-border.png') left repeat-y;
+    background: url('../assignment4/img/left-border.png') 1px center repeat-y;
 }
 
 .right-border {
-    background: url('../assignment4/img/right-border.png') right repeat-y;
+    background: url('../assignment4/img/right-border.png') right center repeat-y;
 }
 
 .bottom-left-border {
 
-    background: url('../assignment4/img/bottom-left-border.png') left bottom no-repeat;
+    background: url('../assignment4/img/bottom-left-bg.png') left bottom no-repeat;
+    padding-bottom: 6px;
 }
 
 .bottom-right-border {
@@ -368,6 +371,7 @@ button {
     background-color: #ffffff;
     border: 1px solid lightgray;
     padding: 2px 3px;
+    cursor: pointer;
 }
 
 
@@ -408,6 +412,13 @@ td {
     height: 120px;
     text-align: left;
     vertical-align: top;
+}
+
+td:hover {
+    border-collapse: initial;
+    background-color: #fcf3de;
+    border: #f09457;
+    cursor: pointer;
 }
 
 .another-color {
