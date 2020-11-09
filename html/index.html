@@ -53,32 +53,30 @@
             </div>
         </header>
         <div class="aside-contents-wrap">
-            <aside>
-                <div class="sidebar-menu">
-                    <h2>커뮤니티</h2>
-                    <div class="aside-inner-top-bg">
-                        <div class="aside-inner-bottom-bg">
-                            <div class="aside-inner-middle-bg">
-                                <ul class="left-align-menu">
-                                    <li><a href="#">My 연구팀</a>
-                                        <ul>
-                                            <li><a href="#">- 연구팀소개</a></li>
-                                            <li><a href="#">- <span>연구일정</span></a></li>
-                                            <li><a href="#">- 컴퍼런스자료</a></li>
-                                            <li><a href="#">- 연구자료실</a></li>
-                                            <li><a href="#">- 분과게시판</a></li>
-                                            <li><a href="#">- 연구자게시판</a></li>
-                                            <li><a href="#">- 권한관리</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">연구팀안내</a></li>
-                                    <li><a href="#">연구자료조회</a></li>
-                                </ul>
-                            </div>
+            <div class="sidebar-menu">
+                <h2>커뮤니티</h2>
+                <div class="side-inner-top-bg">
+                    <div class="side-inner-bottom-bg">
+                        <div class="side-inner-middle-bg">
+                            <ul class="left-align-menu">
+                                <li><a href="#">My 연구팀</a>
+                                    <ul>
+                                        <li><a href="#">- 연구팀소개</a></li>
+                                        <li><a href="#">- <span>연구일정</span></a></li>
+                                        <li><a href="#">- 컴퍼런스자료</a></li>
+                                        <li><a href="#">- 연구자료실</a></li>
+                                        <li><a href="#">- 분과게시판</a></li>
+                                        <li><a href="#">- 연구자게시판</a></li>
+                                        <li><a href="#">- 권한관리</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">연구팀안내</a></li>
+                                <li><a href="#">연구자료조회</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </aside>
+            </div>
             <div class="contents-container">
                 <div class="top-section">
                     <div class="route">
@@ -129,7 +127,7 @@
                                                         <button><span class="right-btn">다음달</span></button>
                                                     </div>
                                                     <div class="table-wrap">
-                                                        <table>
+                                                        <table class="SSK-table">
                                                             <caption>캘린더</caption>
                                                             <colgroup>
                                                                 <col style="width: 14.28%;">
@@ -151,62 +149,169 @@
                                                                     <th scope="col" class="saturday">토요일</th>
                                                                 </tr>
                                                             </thead>
-                                                            <tbody>
+                                                            <tbody class="tbody-hover-height">
                                                                 <tr>
-                                                                    <td class="df-color"></td>
-                                                                    <td class="df-color"></td>
-                                                                    <td>1</td>
-                                                                    <td>2</td>
-                                                                    <td>3</td>
-                                                                    <td>4</td>
-                                                                    <td>5</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>7</td>
-                                                                    <td>8</td>
-                                                                    <td>9<br>
-                                                                        <span>주간보고회</span>
+                                                                    <td>
+                                                                        <div class="df-color"></div>
                                                                     </td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
+                                                                    <td>
+                                                                        <div class="df-color"></div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            1
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            2
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            3
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            4
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            5
+                                                                        </div>
+                                                                    </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            6
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            7
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            8
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="today-bg hover-td">
+                                                                            9<br>
+                                                                            <span>주간보고회</span>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> 
+                                                                        <div class="hover-td">
+                                                                            
+                                                                        </div>
+                                                                    </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
+                                                                    <td> 
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td class="df-color"></td>
-                                                                    <td class="df-color"></td>
-                                                                    <td class="df-color"></td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="hover-td"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="df-color"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="df-color"></div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="df-color"></div>
+                                                                    </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -239,7 +344,7 @@
                     <span>대전청사</span> [305-350] 대전광역시 유성구 가정로 165 Tel. 042-869-6114 / Fax. 042-869-6777<br>
                     <span>서울청사</span> [137-748] 서울특별시 서초구 헌릉로 25 Tel. 02-3460-5500 / Fax. 02-3460-5759
                 </address>
-                <p>COPYRIGHT(C) 2010 NRF. ALL RIGHTS RESERVED. <a href="#">SERVICE@NRF.GO.KR</a></p>
+                <p>COPYRIGHT(C) 2010 NRF. ALL RIGHTS RESERVED. <a href="mailto:SERVICE@NRF.GO.KR">SERVICE@NRF.GO.KR</a></p>
             </div>
         </footer>
     </div>
