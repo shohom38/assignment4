@@ -173,7 +173,7 @@ body {
     display: block;
 }
 
-aside {
+.sidebar-menu {
     display: inline-block;
     width: 156px;
     position: absolute;
@@ -192,18 +192,18 @@ h2 {
     background-size: auto;
 }
 
-.aside-inner-top-bg {
+.side-inner-top-bg {
     padding-top: 9px;
     background: url('../assignment4/img/aside-inner-top-bg.png') center top no-repeat;
 
 }
 
-.aside-inner-middle-bg {
+.side-inner-middle-bg {
     background: url('../assignment4/img/aside-inner-middle-bg.png') center center repeat-y;
 
 }
 
-.aside-inner-bottom-bg {
+.side-inner-bottom-bg {
     padding-bottom: 9px;
     background: url('../assignment4/img/aside-inner-bottom-bg.png') center bottom no-repeat;
 }
@@ -214,8 +214,6 @@ h2 {
     font-size: 12px;
     list-style: none;
 }
-
-
 
 .left-align-menu>li:not(:last-child) {
     border-bottom: 1px dotted #6a6a6a;
@@ -251,6 +249,14 @@ h2 {
     color: #303030;
     text-decoration: none;
     padding: 5px 0;
+}
+
+.left-align-menu>li>a:hover {
+    background-color: #f0f0f0;
+}
+
+.left-align-menu>li>ul>li>a:hover {
+    background: #ffffff;
 }
 
 .left-align-menu>li>ul>li>a>span {
@@ -358,11 +364,10 @@ caption {
     display: none;
 }
 
-table {
+.SSK-table {
     font-size: 12px;
     width: 100%;
     min-width: 1095px;
-    min-height: 100%;
     border-collapse: collapse;
     color: #6a6a6a;
 }
@@ -386,17 +391,17 @@ button {
 }
 
 
-table, th, td {
+.SSK-table th, .SSK-table td {
     border: 1px solid lightgray;
 }
 
-th {
+.SSK-table th {
     background: linear-gradient(#ffffff, #f2f2f2);
     padding: 8px 34px;
 
 }
 
-tr td span {
+.today-bg span {
     color: #f18061;
 }
 
@@ -408,17 +413,17 @@ tr td span {
     color: blue;
 }
 
-td {
-    height: 120px;
-    text-align: left;
-    vertical-align: top;
+.today-bg {
+    background-color: #fcf3de;
 }
 
-td:hover {
-    border-collapse: initial;
-    background-color: #fcf3de;
-    border: #f09457;
-    cursor: pointer;
+.hover-td {
+    padding: 2px;
+    height: 120px;
+}
+
+.hover-td:hover {
+    border: 1px solid #f09457;
 }
 
 .another-color {
@@ -430,6 +435,7 @@ td:hover {
 }
 
 .df-color {
+    height: 120px;
     background-color: #f7f7f7;
 }
 
