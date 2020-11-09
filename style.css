@@ -50,6 +50,7 @@ body {
     top: -31px;
     padding-left: 162px;
     text-align: center;
+    z-index: 1;
 }
 
 
@@ -145,8 +146,13 @@ body {
 
 
 .head-under-menu {
-    display: inline-block;
+    display: block;
     margin-bottom: 25px;
+    padding: 7px;
+    position: absolute;
+    top: 34px;
+    left: 176px;
+    z-index: -1;
 }
 
 .under-bar-middle {
@@ -169,7 +175,7 @@ body {
     color: #1c3c97;
 }
 
-.aside-contents-wrap {
+.side-contents-wrap {
     display: block;
 }
 
@@ -418,12 +424,12 @@ button {
 }
 
 .hover-td {
-    padding: 2px;
+    padding: 3px;
     height: 120px;
 }
 
 .hover-td:hover {
-    border: 1px solid #f09457;
+    border: 2px solid #f09457;
 }
 
 .another-color {
