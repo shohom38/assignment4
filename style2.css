@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bottom-left-border {
+    width: 900px;
+    background: url('../assignment4/img/bottom-left-border.png') no-repeat left bottom;
+
+}
+
+.bottom-right-border {
+    background: url('../assignment4/img/bottom-right-border.png') no-repeat right bottom;
+}
+
+.top-left-border {
+    background: url('../assignment4/img/top-left-border.png') no-repeat left top;
+}
+
+.top-rihgt-border {
+    background: url('../assignment4/img/top-right-border.png') no-repeat right top;
+}
+
+.contents {
+    padding: 20px;
+}

@@ -10,7 +10,6 @@
 body {
     min-width: 1520px;
     background: url('../assignment4/img/background.png') center top repeat-x;
-    background-size: 
 }
 
 .wrap {
@@ -129,24 +128,9 @@ body {
     letter-spacing: -1px;
 }
 
-.under-bar-left-bg {
-    padding-left: 13px;
-    background: url('../assignment4/img/under-bar-left.png') left center no-repeat;
-}
-
-.under-bar-middle-bg {
-    background: url('../assignment4/img/under-bar-middle.png') center center repeat-x;
-}
-
-.under-bar-right-bg {
-    padding-right: 13px;
-    background: url('../assignment4/img/under-bar-right.png') right center no-repeat;
-}
-
-
-
-.head-under-menu {
+.under-bar-middle {
     display: block;
+    width: 100%;
     margin-bottom: 25px;
     padding: 7px;
     position: absolute;
@@ -155,16 +139,11 @@ body {
     z-index: -1;
 }
 
-.under-bar-middle {
-    display: inline-block;
-    padding: 3px 400px;
-}
-
 .head-under-menu li{
     display: inline-block;
 }
 
-.head-under-menu li a {
+.under-bar-middle li a {
     padding: 5px 10px;
     color: #9a9a9a;
     font-weight: bold;
@@ -492,6 +471,6 @@ footer {
     content: "|";
 }
 
-.footer-list li:last-child::after {
-    content: "";
+.font-change-footer-address {
+    font-style: normal;
 }
