@@ -10,7 +10,6 @@
 body {
     min-width: 1520px;
     background: url('../assignment4/img/background.png') center top repeat-x;
-    background-size: 
 }
 
 .wrap {
@@ -50,6 +49,7 @@ body {
     top: -31px;
     padding-left: 162px;
     text-align: center;
+    z-index: 1;
 }
 
 
@@ -128,37 +128,22 @@ body {
     letter-spacing: -1px;
 }
 
-.under-bar-left-bg {
-    padding-left: 13px;
-    background: url('../assignment4/img/under-bar-left.png') left center no-repeat;
-}
-
-.under-bar-middle-bg {
-    background: url('../assignment4/img/under-bar-middle.png') center center repeat-x;
-}
-
-.under-bar-right-bg {
-    padding-right: 13px;
-    background: url('../assignment4/img/under-bar-right.png') right center no-repeat;
-}
-
-
-
-.head-under-menu {
-    display: inline-block;
-    margin-bottom: 25px;
-}
-
 .under-bar-middle {
-    display: inline-block;
-    padding: 3px 400px;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 7px;
+    position: absolute;
+    top: 34px;
+    left: 176px;
+    z-index: -1;
 }
 
 .head-under-menu li{
     display: inline-block;
 }
 
-.head-under-menu li a {
+.under-bar-middle li a {
     padding: 5px 10px;
     color: #9a9a9a;
     font-weight: bold;
@@ -169,7 +154,7 @@ body {
     color: #1c3c97;
 }
 
-.aside-contents-wrap {
+.side-contents-wrap {
     display: block;
 }
 
@@ -418,12 +403,12 @@ button {
 }
 
 .hover-td {
-    padding: 2px;
+    padding: 3px;
     height: 120px;
 }
 
 .hover-td:hover {
-    border: 1px solid #f09457;
+    border: 2px solid #f09457;
 }
 
 .another-color {
@@ -486,6 +471,6 @@ footer {
     content: "|";
 }
 
-.footer-list li:last-child::after {
-    content: "";
+.font-change-footer-address {
+    font-style: normal;
 }
