@@ -8,7 +8,7 @@
 }
 
 body {
-    min-width: 1520px;
+    min-width: 1200px;
     background: url('../assignment4/img/background.png') center top repeat-x;
 }
 
@@ -23,7 +23,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-    min-width: 1096px;
+    min-width: 990px;
 }
 
 #top-logo {
@@ -48,13 +48,14 @@ body {
     position: relative;
     top: -31px;
     padding-left: 162px;
-    text-align: center;
+    text-align: left;
     z-index: 1;
 }
 
 
 .head-menu {
     width: 100%;
+    position: relative;
     line-height: 40px;
     padding-right: 36px;
 }
@@ -87,7 +88,7 @@ body {
     padding-right: 35px;
 }
 
-.left-side li a {
+.left-side-list>a {
     display: inline-block;
     font-size: 16px;
     padding-left: 20px;
@@ -96,21 +97,23 @@ body {
     text-decoration: none;
 }
 
-.left-side li a:first-child {
+.left-side-list>a:first-child {
     padding-left: 20px;
     padding-right: 35px;
 }
 
-.left-side li a:not(:first-child) {
-    padding: 0 35px;
+.left-side-list>a:not(:first-child) {
+    padding: 0 20px;
     border-left: 1px solid black;
 }
 
 .right-side {
-    display: block;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: -7px;
+    font-size: 11px;
     text-align: right;
-    padding-right: 5px;
+    padding: 0 2.5px;
 }
 
 .left-side li {
@@ -131,11 +134,10 @@ body {
 .under-bar-middle {
     display: block;
     width: 100%;
-    margin-bottom: 25px;
     padding: 7px;
     position: absolute;
-    top: 34px;
-    left: 176px;
+    top: 25px;
+    left: 290px;
     z-index: -1;
 }
 
@@ -162,7 +164,7 @@ body {
     display: inline-block;
     width: 156px;
     position: absolute;
-    top: 180px;
+    top: 154px;
     text-align: center;
 }
 
@@ -246,6 +248,10 @@ h2 {
 
 .left-align-menu>li>ul>li>a>span {
     font-weight: bold;
+}
+
+.under-bar-a {
+    padding-right: 16px;
 }
 
 .contents-container {
@@ -352,7 +358,7 @@ caption {
 .SSK-table {
     font-size: 12px;
     width: 100%;
-    min-width: 1095px;
+    min-width: 115px;
     border-collapse: collapse;
     color: #6a6a6a;
 }
@@ -404,7 +410,7 @@ button {
 
 .hover-td {
     padding: 3px;
-    height: 120px;
+    min-height: 87px;
 }
 
 .hover-td:hover {
@@ -420,7 +426,7 @@ button {
 }
 
 .df-color {
-    height: 120px;
+    min-height: 87px;
     background-color: #f7f7f7;
 }
 
