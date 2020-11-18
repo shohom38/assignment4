@@ -24,6 +24,7 @@ body {
     vertical-align: middle;
     width: 100%;
     min-width: 990px;
+    margin-bottom: 23px;
 }
 
 #top-logo {
@@ -60,12 +61,6 @@ body {
     padding-right: 36px;
 }
 
-.right-side::after {
-    display: block;
-    content: "";
-    clear: both;
-}
-
 
 .left-side-bg {
     background: url('../assignment4/img/navleft.png') left center no-repeat;
@@ -77,8 +72,8 @@ body {
 }
 
 .right-side-bg {
-    background: url('../assignment4/img/navright.png') right center no-repeat;
-    padding-right: 27px;
+    background: url('../assignment4/img/rightside-right.png') right 0 no-repeat;
+    padding-right: 20px;
 }
 
 .left-side {
@@ -108,12 +103,20 @@ body {
 }
 
 .right-side {
-    position: absolute;
-    top: 0;
-    right: -7px;
     font-size: 11px;
     text-align: right;
-    padding: 0 2.5px;
+}
+
+.rightside-left {
+    background: url('../assignment4/img/rightside-left.png') left 0 no-repeat;
+    padding-left: 49px;
+    position: absolute;
+    top: 0;
+    right: -5px;
+}
+
+.rightside-mid {
+    background: url('../assignment4/img/rightside-mid.png') 0 0 repeat-x;
 }
 
 .left-side li {
