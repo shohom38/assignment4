@@ -8,7 +8,7 @@
 }
 
 body {
-    min-width: 1200px;
+    min-width: 1240px;
     background: url('../assignment4/img/background.png') center top repeat-x;
 }
 
@@ -31,7 +31,8 @@ body {
     display: inline-block;
     vertical-align: middle;
     position: relative;
-    top: 35px;
+    top: 38px;
+    left: 2px;
 
 }
 
@@ -92,11 +93,6 @@ body {
     text-decoration: none;
 }
 
-.left-side-list>a:first-child {
-    padding-left: 20px;
-    padding-right: 35px;
-}
-
 .left-side-list>a:not(:first-child) {
     padding: 0 20px;
     border-left: 1px solid black;
@@ -117,6 +113,7 @@ body {
 
 .rightside-mid {
     background: url('../assignment4/img/rightside-mid.png') 0 0 repeat-x;
+    padding-left: 26px;
 }
 
 .left-side li {
@@ -140,22 +137,27 @@ body {
     padding: 7px;
     position: absolute;
     top: 25px;
-    left: 290px;
+    left: 0;
+    text-align: center;
     z-index: -1;
+    background: url('../assignment4/img/under-bar-middle.png') 0 center repeat-x;
 }
 
 .head-under-menu li{
     display: inline-block;
 }
 
-.under-bar-middle li a {
+.under-bar-a {
     padding: 5px 10px;
     color: #9a9a9a;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
+    padding-left: 16px;
 }
 
-.head-under-menu li a span {
+
+
+.under-bar-a span {
     color: #1c3c97;
 }
 
@@ -168,13 +170,14 @@ body {
     width: 156px;
     position: absolute;
     top: 154px;
+    left: 100px;
     text-align: center;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 6px;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
     margin: 0 auto;
     margin-bottom: -4px;
     color: #ffffff;
@@ -213,7 +216,7 @@ h2 {
     list-style: none;
     border-top: 1px dotted #6a6a6a;
     background-color: #f0f0f0;
-    padding-top: 10px;
+    padding-top: 5.5px;
     padding-bottom: 10px;
     padding-left: 6px;
     text-align: left;
@@ -230,16 +233,18 @@ h2 {
     color: #303030;
     text-decoration: none;
     text-align: left;
-    padding: 10px 0 10px 12px;
+    padding: 9px 0 7px 12px;
+    background: url('../assignment4/img/some.png') left center  no-repeat;
 }
 
-.left-align-menu>li>ul>li>a {
+.left-nav-inner-a {
     display: inline-block;
     width: 100%;
     color: #303030;
     text-decoration: none;
-    padding: 5px 0;
+    padding: 4.5px 0;
 }
+
 
 .left-align-menu>li>a:hover {
     background-color: #f0f0f0;
@@ -251,10 +256,6 @@ h2 {
 
 .left-align-menu>li>ul>li>a>span {
     font-weight: bold;
-}
-
-.under-bar-a {
-    padding-right: 16px;
 }
 
 .contents-container {
@@ -412,8 +413,10 @@ button {
 }
 
 .hover-td {
-    padding: 3px;
+    padding: 2px;
     min-height: 87px;
+    min-width: 115px;
+    font-size: 11px;
 }
 
 .hover-td:hover {
@@ -430,6 +433,7 @@ button {
 
 .df-color {
     min-height: 87px;
+    min-width: 115px;
     background-color: #f7f7f7;
 }
 
