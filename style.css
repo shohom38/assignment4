@@ -24,7 +24,7 @@ body {
     vertical-align: middle;
     width: 100%;
     min-width: 990px;
-    margin-bottom: 23px;
+    margin-bottom: 22px;
 }
 
 #top-logo {
@@ -48,7 +48,7 @@ body {
 
 .head-menu-wrap {
     position: relative;
-    top: -31px;
+    top: -27px;
     padding-left: 162px;
     text-align: left;
     z-index: 1;
@@ -73,7 +73,7 @@ body {
 }
 
 .right-side-bg {
-    background: url('../assignment4/img/rightside-right.png') right 0 no-repeat;
+    background: url('../assignment4/img/header/nav-right.png') right 0 no-repeat;
     padding-right: 20px;
 }
 
@@ -87,8 +87,6 @@ body {
 .left-side-list>a {
     display: inline-block;
     font-size: 16px;
-    padding-left: 20px;
-    padding-right: 35px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -104,7 +102,7 @@ body {
 }
 
 .rightside-left {
-    background: url('../assignment4/img/rightside-left.png') left 0 no-repeat;
+    background: url('../assignment4/img/header/rightside-left-side.png') left 0 no-repeat;
     padding-left: 49px;
     position: absolute;
     top: 0;
@@ -112,8 +110,9 @@ body {
 }
 
 .rightside-mid {
-    background: url('../assignment4/img/rightside-mid.png') 0 0 repeat-x;
-    padding-left: 26px;
+    background: url('../assignment4/img/header/rightside-middle.png') 0 0 repeat-x;
+    padding-left: 9px;
+    padding-right: 11px;
 }
 
 .left-side li {
@@ -131,6 +130,26 @@ body {
     letter-spacing: -1px;
 }
 
+.dif-padding-1 {
+    padding: 0 33px 0 18px;
+}
+
+.dif-padding-2 {
+    padding: 0 25px 0 27px;
+}
+
+.dif-padding-3 {
+    padding: 0 23px 0 26px;
+}
+
+.dif-padding-4 {
+    padding-left: 33px;
+}
+
+.divider {
+    background: url('../assignment4/img/header/divider.png') right 0 no-repeat;
+}
+
 .under-bar-middle {
     display: block;
     width: 100%;
@@ -140,7 +159,7 @@ body {
     left: 0;
     text-align: center;
     z-index: -1;
-    background: url('../assignment4/img/under-bar-middle.png') 0 center repeat-x;
+    background: url('../assignment4/img/header-under-bar-mid.png') 0 center repeat-x;
 }
 
 .head-under-menu li{
@@ -148,17 +167,21 @@ body {
 }
 
 .under-bar-a {
-    padding: 5px 10px;
     color: #9a9a9a;
     font-weight: bold;
     font-size: 12px;
-    padding-left: 16px;
 }
 
-
+.under-bar-padding {
+    padding-left: 11px;
+}
 
 .under-bar-a span {
     color: #1c3c97;
+}
+
+.under-bar-left {
+    background: url('../assignment4/img/header-under-bar-left.png') left center no-repeat;
 }
 
 .side-contents-wrap {
@@ -197,7 +220,7 @@ h2 {
 }
 
 .side-inner-bottom-bg {
-    padding-bottom: 9px;
+    padding-bottom: 8px;
     background: url('../assignment4/img/aside-inner-bottom-bg.png') center bottom no-repeat;
 }
 
@@ -208,6 +231,18 @@ h2 {
     list-style: none;
 }
 
+.dif-padding-a {
+    padding: 3px 0 7px 10px;
+}
+
+.dif-hover-a {
+    padding: 9px 0 6px 10px;
+}
+
+.dif-hover-a:hover {
+    background-color: #f0f0f0;
+}
+
 .left-align-menu>li:not(:last-child) {
     border-bottom: 1px dotted #6a6a6a;
 }
@@ -216,13 +251,13 @@ h2 {
     list-style: none;
     border-top: 1px dotted #6a6a6a;
     background-color: #f0f0f0;
-    padding-top: 5.5px;
-    padding-bottom: 10px;
+    padding-top: 4.5px;
+    padding-bottom: 6.5px;
     padding-left: 6px;
     text-align: left;
 }
 
-.left-align-menu li>ul>li>a:not(:last-child) {
+.left-nav-inner-a:not(:last-child) {
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -233,7 +268,6 @@ h2 {
     color: #303030;
     text-decoration: none;
     text-align: left;
-    padding: 9px 0 7px 12px;
     background: url('../assignment4/img/some.png') left center  no-repeat;
 }
 
@@ -242,25 +276,21 @@ h2 {
     width: 100%;
     color: #303030;
     text-decoration: none;
-    padding: 4.5px 0;
+    padding: 3px 0;
 }
 
-
-.left-align-menu>li>a:hover {
-    background-color: #f0f0f0;
-}
-
-.left-align-menu>li>ul>li>a:hover {
+.left-nav-inner-a:hover {
     background: #ffffff;
 }
 
-.left-align-menu>li>ul>li>a>span {
+.left-nav-inner-a>span {
     font-weight: bold;
+    color: #408d00;
 }
 
 .contents-container {
-    padding-left: 173px;
-    margin-bottom: 30px;
+    padding-left: 167px;
+    margin-bottom: 28px;
 }
 
 .top-section {
@@ -270,41 +300,40 @@ h2 {
 }
 
 .top-left-border {
-    background: url('../assignment4/img/left-top-bg.png') left top no-repeat;
-    padding-top: 16px;
+    background: url('../assignment4/img/bg/top-left-bg-border.jpg') left top no-repeat;
 
 }
 
 .top-right-border {
-
-    background: url('../assignment4/img/top-right-border.png') right top no-repeat;
+    background: url('../assignment4/img/bg/top-right-bg-border.jpg') right top no-repeat;
+    padding: 24px 0 0 0;
 }
 
 .top-border {
-    background: url('../assignment4/img/top-border.png') center 2px repeat-x;
+    background: url('../assignment4/img/bg/top-bg-border.jpg') 0 top repeat-x;
 }
 
 .left-border {
-    background: url('../assignment4/img/left-border.png') 1px center repeat-y;
+    background: url('../assignment4/img/bg/left-bg-border.jpg') left 0 repeat-y;
+    padding-left: 22px;
 }
 
 .right-border {
-    background: url('../assignment4/img/right-border.png') right center repeat-y;
+    background: url('../assignment4/img/bg/right-bg-border.jpg') right 0 repeat-y;
+    padding-right: 22px;
 }
 
 .bottom-left-border {
-
-    background: url('../assignment4/img/bottom-left-bg.png') left bottom no-repeat;
-    padding-bottom: 6px;
+    background: url('../assignment4/img/bg/bottom-left-bg-border.jpg') left bottom no-repeat;
 }
 
 .bottom-right-border {
-
-    background: url('../assignment4/img/bottom-right-border.png') right bottom no-repeat;
+    background: url('../assignment4/img/bg/bottom-right-bg-border.jpg') right bottom no-repeat;
+    padding: 0 0 24px 0;
 }
 
 .bottom-border {
-    background: url('../assignment4/img/bottom-border.png') center bottom repeat-x;
+    background: url('../assignment4/img/bg/bottom-bg-border.jpg') 0 bottom repeat-x;
 }
 
 .position-box {
@@ -315,10 +344,6 @@ h2 {
 .contents {
     width: 500px;
     height: 500px;
-}
-
-.contents-box {
-    padding: 24px 22px;
 }
 
 .route {
@@ -340,8 +365,8 @@ h3 {
     height: 24px;;
     font-size: 18px;
     color: #4f4f4f;
-    padding-left: 39px;
-    margin-bottom: 21px;
+    padding-left: 37px;
+    margin-bottom: 15px;
     background: url('../assignment4/img/bullet2.png') 0 0 no-repeat;
 }
 
@@ -413,14 +438,14 @@ button {
 }
 
 .hover-td {
-    padding: 2px;
+    padding: 8px;
     min-height: 87px;
     min-width: 115px;
     font-size: 11px;
 }
 
 .hover-td:hover {
-    border: 2px solid #f09457;
+    border: 1px solid #f09457;
 }
 
 .another-color {
@@ -438,12 +463,17 @@ button {
 }
 
 footer {
+    background: url('../assignment4/img/footer-upper-shadow.png') 0 -34px repeat-x;
+    padding-top: 10px;
+}
+
+.footer-wrap {
     text-align: left;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     color: #999999;
     background: url('../assignment4/img/footer-img.png') 0 0 no-repeat;
-    background-position: 120px 10px;
+    background-position: 193px 10px;
 }
 
 .footer-right {
@@ -452,7 +482,7 @@ footer {
     margin: 0 auto;
     padding-top: 23px;
     padding-bottom: 23px; 
-    padding-left: 300px;
+    padding-left: 356px;
 }
 
 .footer-right>p>a {
@@ -478,7 +508,7 @@ footer {
     color: #3279ab;
 }
 
-.footer-list li::after {
+.footer-list li:not(:last-child)::after {
     font-weight: lighter;
     padding-left: 15px;
     content: "|";
